@@ -23,5 +23,5 @@
 .drop-menu.hide {
     opacity: 0;
     visibility: hidden;
-    transform: translate(0, -20px);
+    transform: translate(0, -20px) scale(0, 1);
 }
