@@ -1,0 +1,182 @@
+.front-page {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    min-width: 1360px;
+    min-height: 670px;
+    /*border: 1px solid red;*/
+    color: #69a8a4;
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    background: #242e33 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFgAAABYCAYAAABxlTA0AAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAA3XAAAN1wFCKJt4AAAAB3RJTUUH4wECEycFf6J5dAAAAGhJREFUeNrt2TENgEAURME9DJAgBBeoPgzRkKDgUHAdvyCZEbDVdi8BAAAAAAAAKrWvB/s91iQ5tvbYTRYfAwAAAAAAAP5MVVaVAQAAAAAAAOZUZVUZAAAAAAAAYE5VLto9r7EnqnK5FwBmOwReBwo5AAAAAElFTkSuQmCC");
+    overflow: hidden;
+}
+
+.front-page .nav-bar {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    /*border: 1px solid red;*/
+    height: 50px;
+    background-color: rgba(175, 243, 255, 0.1);
+    transition: transform 0.3s, opacity 1s;
+}
+
+.front-page .nav-bar .left-panel {
+    position: absolute;
+    display: inline-block;
+    /*border: 1px solid red;*/
+    top: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.front-page .nav-bar .left-panel .logo {
+    vertical-align: top;
+    display: inline-flex;
+    width: 50px;
+    height: 100%;
+    /*border: 1px solid red;*/
+}
+
+.front-page .nav-bar .left-panel .logo img {
+    width: 30px;
+}
+
+.front-page .nav-bar .left-panel .hide {
+    vertical-align: top;
+    display: inline-flex;
+    width: 50px;
+    height: 100%;
+    /*border: 1px solid red;*/
+}
+
+.front-page .nav-bar .left-panel .hide img {
+    width: 15px;
+}
+
+.front-page .nav-bar .center-panel {
+    position: absolute;
+    /*border: 1px solid red;*/
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.front-page .nav-bar .center-panel i {
+    padding: 6px;
+    background-color: rgba(175, 243, 255, 0.2);
+    font-size: 16px;
+}
+
+.front-page .nav-bar .center-panel input {
+    border: none;
+    background-color: rgba(175, 243, 255, 0.2);
+    padding: 5px;
+    width: 300px;
+    outline: 0;
+    color: #69a8a4;
+    font-size: 16px;
+}
+
+.front-page .nav-bar .right-panel {
+    /*border: 1px solid red;*/
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.front-page .nav-bar .right-panel i {
+    cursor: pointer;
+}
+.front-page .nav-bar .right-panel .messages {
+    /*border: 1px solid red;*/
+    position: relative;
+    vertical-align: top;
+    display: inline-flex;
+    width: 50px;
+    height: 100%;
+}
+
+.front-page .nav-bar .right-panel .friends-requests {
+    /*border: 1px solid red;*/
+    position: relative;
+
+    vertical-align: top;
+    display: inline-flex;
+    width: 50px;
+    height: 100%;
+}
+
+.front-page .nav-bar .right-panel .notifications {
+    /*border: 1px solid red;*/
+    position: relative;
+
+    vertical-align: top;
+    display: inline-flex;
+    width: 50px;
+    height: 100%;
+}
+
+.front-page .nav-bar .right-panel .settings {
+    position: relative;
+    /*border: 1px solid red;*/
+    vertical-align: top;
+    display: inline-flex;
+    width: 50px;
+    height: 100%;
+}
+
+.front-page .nav-bar .right-panel .logout {
+    position: relative;
+    /*border: 1px solid red;*/
+    vertical-align: top;
+    display: inline-flex;
+    width: 50px;
+    height: 100%;
+}
+
+.front-page .nav-bar.hide {
+    transform: translateY(100%);
+    opacity: 0;
+}
+
+.front-page .show {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    height: 5px;
+    /*width: 50px;*/
+    /*border: 1px solid red;*/
+    background-color: rgba(175, 243, 255, 0.1);
+    transition: opacity 1s;
+}
+
+.front-page .show.hide {
+    opacity: 0;
+}
+
+.front-page .display {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 70px;
+    /*border: 1px solid red;*/
+    background-color: rgba(175, 243, 255, 0.1);
+    transition: bottom 0.3s;
+}
+.front-page .display.max {
+    bottom: 20px;
+}
+
+.centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
