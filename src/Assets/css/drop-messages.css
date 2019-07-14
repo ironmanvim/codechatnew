@@ -1,0 +1,101 @@
+.drop-messages {
+    position: relative;
+    /*border: 1px solid red;*/
+    height: 100%;
+}
+
+.drop-messages .header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 20px;
+    /*border: 1px solid red;*/
+    padding: 5px;
+    font-weight: bold;
+}
+.drop-messages .body {
+    position: absolute;
+    top: 30px;
+    bottom: 30px;
+    left: 0;
+    right: 0;
+    /*border: 1px solid red;*/
+    padding: 5px;
+}
+.drop-messages .body .item {
+    position: relative;
+    /*border: 1px solid red;*/
+    height: 50px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+.drop-messages .body .item:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 40px;
+    right: 40px;
+    border-bottom: 1px solid #69a8a4;
+}
+.drop-messages .body .item .item-image {
+    /*border: 1px solid red;*/
+    display: inline-flex;
+    height: 100%;
+    box-sizing: border-box;
+    width: 50px;
+    vertical-align: top;
+}
+
+.drop-messages .body .item .item-image i {
+    font-size: 18pt;
+}
+
+.drop-messages .body .item .item-info {
+    vertical-align: top;
+    display: inline-flex;
+    /*border: 1px solid red;*/
+    height: 100%;
+    width: 160px;
+    box-sizing: border-box;
+    flex-direction: column;
+}
+
+.drop-messages .body .item .item-info .item-name {
+    /*display: flex;*/
+    /*border: 1px solid red;*/
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-weight: bold;
+    font-size: 10pt;
+    flex: 1;
+}
+.drop-messages .body .item .item-info .item-desc {
+    /*border: 1px solid red;*/
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 10pt;
+    flex: 1;
+}
+
+.drop-messages .body .item .time {
+    position: absolute;
+    top: 0;
+    right: 0;
+    /*border: 1px solid red;*/
+    font-size: 9pt;
+    padding: 5px;
+}
+.drop-messages .footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 20px;
+    padding: 5px;
+    /*border: 1px solid red;*/
+}

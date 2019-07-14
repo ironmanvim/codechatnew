@@ -15,6 +15,9 @@ class FrontLayout extends React.Component {
     }
 
     render() {
+        import("../Assets/css/drop-messages.css");
+        import("../Assets/css/drop-friend-request.css");
+        import("../Assets/css/drop-settings.css");
         return (
             <div className="front-page">
                 <div className={this.state.show ? "show hide centered" : "show centered"} onMouseOver={() => {
@@ -23,7 +26,7 @@ class FrontLayout extends React.Component {
                     {/*<i className="fas fa-angle-up"> </i>*/}
                 </div>
                 <div className={this.state.show ? "display" : "display max"}>
-                    <Chat />
+                    <Chat/>
                 </div>
                 <div className={this.state.show ? "nav-bar" : "nav-bar hide"}>
                     <div className="center-panel centered">
@@ -31,9 +34,9 @@ class FrontLayout extends React.Component {
                             <label htmlFor="search"><i className="fas fa-search"> </i></label>
                             <input type="text" id="search"
                                    onFocus={() => {
-                                        this.setState({
-                                            search_dropdown: true,
-                                        });
+                                       this.setState({
+                                           search_dropdown: true,
+                                       });
                                    }}
                                    onBlur={() => {
                                        this.setState({
@@ -41,7 +44,8 @@ class FrontLayout extends React.Component {
                                        });
                                    }}
                             />
-                            <DropMenu arrowType="no-arrow" show={this.state.search_dropdown} height="auto" width="326px">
+                            <DropMenu arrowType="no-arrow" show={this.state.search_dropdown} height="auto"
+                                      width="326px">
                                 hello
                             </DropMenu>
                         </div>
@@ -62,7 +66,67 @@ class FrontLayout extends React.Component {
                                 this.showOrHideDropMenu(0)
                             }}> </i>
                             <DropMenu arrowType="bottom-arrow" show={this.state.drop_menu[0]}>
-                                Hello
+                                <div className="drop-messages">
+                                    <div className="header centered">
+                                        Messages
+                                    </div>
+                                    <div className="body">
+                                        <div className="item">
+                                            <div className="item-image centered">
+                                                <i className="fas fa-user"> </i>
+                                            </div>
+                                            <div className="item-info">
+                                                <div className="item-name">
+                                                    Username
+                                                </div>
+                                                <div className="item-desc">
+                                                    loren Ipsum loren Ipsum loren Ipsum
+                                                    loren Ipsum loren Ipsum loren Ipsum
+                                                </div>
+                                            </div>
+                                            <div className="time">
+                                                2:30
+                                            </div>
+                                        </div>
+                                        <div className="item">
+                                            <div className="item-image centered">
+                                                <i className="fas fa-user"> </i>
+                                            </div>
+                                            <div className="item-info">
+                                                <div className="item-name">
+                                                    Username
+                                                </div>
+                                                <div className="item-desc">
+                                                    loren Ipsum loren Ipsum loren Ipsum
+                                                    loren Ipsum loren Ipsum loren Ipsum
+                                                </div>
+                                            </div>
+                                            <div className="time">
+                                                2:30
+                                            </div>
+                                        </div>
+                                        <div className="item">
+                                            <div className="item-image centered">
+                                                <i className="fas fa-user"> </i>
+                                            </div>
+                                            <div className="item-info">
+                                                <div className="item-name">
+                                                    Username
+                                                </div>
+                                                <div className="item-desc">
+                                                    loren Ipsum loren Ipsum loren Ipsum
+                                                    loren Ipsum loren Ipsum loren Ipsum
+                                                </div>
+                                            </div>
+                                            <div className="time">
+                                                2:30
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="footer centered">
+                                        show all messages
+                                    </div>
+                                </div>
                             </DropMenu>
                         </div>
                         <div className="friends-requests centered">
@@ -70,7 +134,67 @@ class FrontLayout extends React.Component {
                                 this.showOrHideDropMenu(1)
                             }}> </i>
                             <DropMenu arrowType="bottom-arrow" show={this.state.drop_menu[1]}>
-                                Hello
+                                <div className="drop-friend-request">
+                                    <div className="header centered">
+                                        Friend Requests
+                                    </div>
+                                    <div className="body">
+                                        <div className="item">
+                                            <div className="item-image centered">
+                                                <i className="fas fa-user"> </i>
+                                            </div>
+                                            <div className="item-info">
+                                                <div className="item-name">
+                                                    Username
+                                                </div>
+                                                <div className="item-desc">
+                                                    <button className="accept">Accept</button>
+                                                    <button className="reject">Reject</button>
+                                                </div>
+                                            </div>
+                                            <div className="time">
+                                                2:30
+                                            </div>
+                                        </div>
+                                        <div className="item">
+                                            <div className="item-image centered">
+                                                <i className="fas fa-user"> </i>
+                                            </div>
+                                            <div className="item-info">
+                                                <div className="item-name">
+                                                    Username
+                                                </div>
+                                                <div className="item-desc">
+                                                    <button className="accept">Accept</button>
+                                                    <button className="reject">Reject</button>
+                                                </div>
+                                            </div>
+                                            <div className="time">
+                                                2:30
+                                            </div>
+                                        </div>
+                                        <div className="item">
+                                            <div className="item-image centered">
+                                                <i className="fas fa-user"> </i>
+                                            </div>
+                                            <div className="item-info">
+                                                <div className="item-name">
+                                                    Username
+                                                </div>
+                                                <div className="item-desc">
+                                                    <button className="accept">Accept</button>
+                                                    <button className="reject">Reject</button>
+                                                </div>
+                                            </div>
+                                            <div className="time">
+                                                2:30
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="footer centered">
+                                        Show all requests
+                                    </div>
+                                </div>
                             </DropMenu>
                         </div>
                         <div className="notifications centered">
@@ -78,15 +202,83 @@ class FrontLayout extends React.Component {
                                 this.showOrHideDropMenu(2)
                             }}> </i>
                             <DropMenu arrowType="bottom-arrow" show={this.state.drop_menu[2]}>
-                                Hello
+                                <div className="drop-messages">
+                                    <div className="header centered">
+                                        Messages
+                                    </div>
+                                    <div className="body">
+                                        <div className="item">
+                                            <div className="item-image centered">
+                                                <i className="fas fa-user"> </i>
+                                            </div>
+                                            <div className="item-info">
+                                                <div className="item-name">
+                                                    Username
+                                                </div>
+                                                <div className="item-desc">
+                                                    loren Ipsum loren Ipsum loren Ipsum
+                                                    loren Ipsum loren Ipsum loren Ipsum
+                                                </div>
+                                            </div>
+                                            <div className="time">
+                                                2:30
+                                            </div>
+                                        </div>
+                                        <div className="item">
+                                            <div className="item-image centered">
+                                                <i className="fas fa-user"> </i>
+                                            </div>
+                                            <div className="item-info">
+                                                <div className="item-name">
+                                                    Username
+                                                </div>
+                                                <div className="item-desc">
+                                                    loren Ipsum loren Ipsum loren Ipsum
+                                                    loren Ipsum loren Ipsum loren Ipsum
+                                                </div>
+                                            </div>
+                                            <div className="time">
+                                                2:30
+                                            </div>
+                                        </div>
+                                        <div className="item">
+                                            <div className="item-image centered">
+                                                <i className="fas fa-user"> </i>
+                                            </div>
+                                            <div className="item-info">
+                                                <div className="item-name">
+                                                    Username
+                                                </div>
+                                                <div className="item-desc">
+                                                    loren Ipsum loren Ipsum loren Ipsum
+                                                    loren Ipsum loren Ipsum loren Ipsum
+                                                </div>
+                                            </div>
+                                            <div className="time">
+                                                2:30
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div className="footer centered">
+                                        clear all
+                                    </div>
+                                </div>
                             </DropMenu>
                         </div>
                         <div className="settings centered">
                             <i className="fas fa-cog" onClick={() => {
                                 this.showOrHideDropMenu(3)
                             }}> </i>
-                            <DropMenu arrowType="bottom-arrow" show={this.state.drop_menu[3]}>
-                                Hello
+                            <DropMenu arrowType="bottom-arrow" show={this.state.drop_menu[3]} height="150px">
+                                <div className="drop-settings">
+                                    <div className="header centered">
+                                        Settings
+                                    </div>
+                                    <div className="body">
+                                        <div className="item centered">My Profile</div>
+                                        <div className="item centered">Account</div>
+                                    </div>
+                                </div>
                             </DropMenu>
                         </div>
                         <div className="logout centered">
