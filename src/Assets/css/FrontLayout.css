@@ -40,9 +40,9 @@
     height: 100%;
     /*border: 1px solid red;*/
 }
-
 .front-page .nav-bar .left-panel .logo img {
     width: 30px;
+    cursor: pointer;
 }
 
 .front-page .nav-bar .left-panel .hide {
@@ -53,8 +53,9 @@
     /*border: 1px solid red;*/
 }
 
-.front-page .nav-bar .left-panel .hide img {
-    width: 15px;
+.front-page .nav-bar .left-panel .hide i {
+    /*width: 15px;*/
+    cursor: pointer;
 }
 
 .front-page .nav-bar .center-panel {
@@ -65,14 +66,19 @@
     left: 0;
     right: 0;
 }
-
-.front-page .nav-bar .center-panel i {
+.front-page .nav-bar .center-panel .search-bar {
+    /*border: 1px solid red;*/
+    position: relative;
+    height: 100%;
+}
+.front-page .nav-bar .center-panel .search-bar i {
     padding: 6px;
     background-color: rgba(175, 243, 255, 0.2);
     font-size: 16px;
+    cursor: text;
 }
 
-.front-page .nav-bar .center-panel input {
+.front-page .nav-bar .center-panel .search-bar input {
     border: none;
     background-color: rgba(175, 243, 255, 0.2);
     padding: 5px;

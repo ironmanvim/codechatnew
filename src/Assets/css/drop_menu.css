@@ -12,14 +12,20 @@
     transition: opacity 0.3s, visibility 0.3s, transform 0.3s;
     border: 1px solid rgb(57, 77, 91);
 }
-.drop-menu:after {
-    content: '';
+
+.drop-menu .bottom-arrow {
     position: absolute;
     border: 10px solid transparent;
     border-top: 10px solid rgb(58, 83, 91);
     bottom: -20px;
     right: 15px;
 }
+.drop-menu .no-arrow {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
 .drop-menu.hide {
     opacity: 0;
     visibility: hidden;
