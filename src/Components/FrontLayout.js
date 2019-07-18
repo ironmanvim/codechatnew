@@ -1,6 +1,8 @@
 import React from 'react'
 import DropMenu from '../Components/DropMenu';
 import Chat from '../Components/Chat';
+import Profile from '../Components/Profile'
+import Friends from '../Components/Friends';
 import '../Assets/css/FrontLayout.css';
 import Logo from '../Assets/images/logo2.png';
 
@@ -26,7 +28,7 @@ class FrontLayout extends React.Component {
                     {/*<i className="fas fa-angle-up"> </i>*/}
                 </div>
                 <div className={this.state.show ? "display" : "display max"}>
-                    <Chat/>
+                    <Friends />
                 </div>
                 <div className={this.state.show ? "nav-bar" : "nav-bar hide"}>
                     <div className="center-panel centered">
