@@ -1,0 +1,257 @@
+.friends {
+    position: absolute;
+    /*border: 1px solid red;*/
+    top: 5px;
+    bottom: 5px;
+    left: 5px;
+    right: 5px;
+    overflow-x: hidden;
+}
+
+.friends .friend {
+    position: absolute;
+    /*border: 1px solid blue;*/
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 33.3%;
+}
+.friends .friend {
+    border-right: 1px solid rgba(175, 243, 255, 0.2);
+}
+.friends .friend .body .item {
+    /*border: 1px solid red;*/
+    height: 70px;
+    /*box-sizing: border-box;*/
+    border: 1px solid #69a8a4;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+.friends .friend .body .item .item-pic {
+    display: inline-flex;
+    /*border: 1px solid red;*/
+    vertical-align: top;
+    height: 100%;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.friends .friend .body .item .item-pic i {
+    font-size: 20pt;
+}
+
+.friends .friend .body .item .item-name-controls {
+    display: inline-flex;
+    /*display: inline-block;*/
+    /*border: 1px solid red;*/
+    vertical-align: top;
+    width: 300px;
+    height: 100%;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.friends .friend .body .item .item-name-controls .item-name {
+    display: inline-flex;
+    /*border: 1px solid red;*/
+    flex: 1;
+    font-weight: bold;
+    align-items: center;
+}
+.friends .friend .body .item .item-name-controls .item-controls {
+    display: inline-flex;
+    /*border: 1px solid red;*/
+    flex: 1;
+    align-items: center;
+}
+
+.friends .friend .body .item .item-name-controls .item-controls .accept {
+    border: 1px solid #69a8a4;
+    background: #69a8a4;
+    padding: 5px;
+    color: rgb(58, 83, 91);
+}
+
+.friends .friend .body .item .item-name-controls .item-controls .reject {
+    border: 1px solid #69a8a4;
+    background: none;
+    padding: 5px;
+    margin-left: 2px;
+    color: #69a8a4;
+}
+
+.friends .received-requests {
+    position: absolute;
+    /*border: 1px solid white;*/
+    left: 33.3%;
+    top: 0;
+    bottom: 0;
+    width: 33.3%;
+}
+.friends .received-requests {
+    border-right: 1px solid rgba(175, 243, 255, 0.2);
+}
+
+.friends .received-requests .body .item {
+    /*border: 1px solid red;*/
+    height: 70px;
+    /*box-sizing: border-box;*/
+    border: 1px solid #69a8a4;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+.friends .received-requests .body .item .item-pic {
+    display: inline-flex;
+    /*border: 1px solid red;*/
+    vertical-align: top;
+    height: 100%;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.friends .received-requests .body .item .item-pic i {
+    font-size: 20pt;
+}
+
+.friends .received-requests .body .item .item-name-controls {
+    display: inline-flex;
+    /*display: inline-block;*/
+    /*border: 1px solid red;*/
+    vertical-align: top;
+    width: 300px;
+    height: 100%;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.friends .received-requests .body .item .item-name-controls .item-name {
+    display: inline-flex;
+    /*border: 1px solid red;*/
+    flex: 1;
+    font-weight: bold;
+    align-items: center;
+}
+
+.friends .received-requests .body .item .item-name-controls .item-controls {
+    display: inline-flex;
+    /*border: 1px solid red;*/
+    flex: 1;
+    align-items: center;
+}
+
+.friends .received-requests .body .item .item-name-controls .item-controls .accept {
+    border: 1px solid #69a8a4;
+    background: #69a8a4;
+    padding: 5px;
+    color: rgb(58, 83, 91);
+}
+
+.friends .received-requests .body .item .item-name-controls .item-controls .reject {
+    border: 1px solid #69a8a4;
+    background: none;
+    padding: 5px;
+    margin-left: 2px;
+    color: #69a8a4;
+}
+
+.friends .sent-requests {
+    position: absolute;
+    /*border: 1px solid green;*/
+    left: 66.6%;
+    top: 0;
+    bottom: 0;
+    width: 33.3%;
+}
+
+.friends .sent-requests .body .item {
+    /*border: 1px solid red;*/
+    height: 70px;
+    /*box-sizing: border-box;*/
+    border: 1px solid #69a8a4;
+    margin-top: 5px;
+    padding: 5px;
+}
+
+.friends .sent-requests .body .item .item-pic {
+    display: inline-flex;
+    /*border: 1px solid red;*/
+    vertical-align: top;
+    height: 100%;
+    width: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.friends .sent-requests .body .item .item-pic i {
+    font-size: 20pt;
+}
+
+.friends .sent-requests .body .item .item-name-controls {
+    display: inline-flex;
+    /*display: inline-block;*/
+    /*border: 1px solid red;*/
+    vertical-align: top;
+    width: 300px;
+    height: 100%;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.friends .sent-requests .body .item .item-name-controls .item-name {
+    display: inline-flex;
+    /*border: 1px solid red;*/
+    flex: 1;
+    font-weight: bold;
+    align-items: center;
+}
+
+.friends .sent-requests .body .item .item-name-controls .item-controls {
+    display: inline-flex;
+    /*border: 1px solid red;*/
+    flex: 1;
+    align-items: center;
+}
+
+.friends .sent-requests .body .item .item-name-controls .item-controls .accept {
+    /*border: 1px solid #69a8a4;*/
+    background: #69a8a4;
+    padding: 5px;
+    color: rgb(58, 83, 91);
+}
+
+.friends .sent-requests .body .item .item-name-controls .item-controls .reject {
+    border: 1px solid #69a8a4;
+    background: none;
+    padding: 5px;
+    margin-left: 2px;
+    color: #69a8a4;
+}
+
+.friends .header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    /*border: 1px solid yellow;*/
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 12pt;
+}
+
+.friends .body {
+    position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /*border: 1px solid red;*/
+    overflow-y: auto;
+    padding: 5px;
+}
