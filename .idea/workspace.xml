@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb10139e-7821-4eaf-888b-37bdbdd7b371" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/vishal.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/css/friends.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Assets/images/cover_example.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Friends.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assets/css/FrontLayout.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assets/css/FrontLayout.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assets/css/chat.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assets/css/chat.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assets/css/drop-friend-request.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assets/css/drop-friend-request.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assets/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assets/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Assets/css/profile.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assets/css/profile.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Assets/css/friends.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Assets/css/friends.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/FrontLayout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/FrontLayout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Profile.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Profile.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -65,18 +58,18 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="10020" />
-          <entry key="js" value="7401" />
+          <entry key="css" value="10053" />
+          <entry key="js" value="7459" />
           <entry key="json" value="5" />
-          <entry key="txt" value="178" />
+          <entry key="txt" value="203" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="10020" />
+          <entry key="CSS" value="10053" />
           <entry key="JSON" value="5" />
-          <entry key="JavaScript" value="7401" />
-          <entry key="PLAIN_TEXT" value="178" />
+          <entry key="JavaScript" value="7459" />
+          <entry key="PLAIN_TEXT" value="203" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
@@ -88,11 +81,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Components/FrontLayout.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
+            <state relative-caret-position="327">
+              <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -142,11 +138,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Assets/css/friends.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="19" column="52" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+            <state relative-caret-position="299">
+              <caret line="93" column="52" selection-start-line="93" selection-start-column="52" selection-end-line="93" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -154,8 +150,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Components/Friends.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-662">
-              <caret line="21" column="70" selection-start-line="21" selection-start-column="70" selection-end-line="21" selection-end-column="70" />
+            <state relative-caret-position="327">
+              <caret line="128" column="30" selection-start-line="128" selection-start-column="30" selection-end-line="128" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -234,9 +230,9 @@
         <option value="$PROJECT_DIR$/src/Components/Profile.js" />
         <option value="$PROJECT_DIR$/src/Assets/css/FrontLayout.css" />
         <option value="$PROJECT_DIR$/src/Assets/css/profile.css" />
-        <option value="$PROJECT_DIR$/src/Components/FrontLayout.js" />
         <option value="$PROJECT_DIR$/src/Components/Friends.js" />
         <option value="$PROJECT_DIR$/src/Assets/css/friends.css" />
+        <option value="$PROJECT_DIR$/src/Components/FrontLayout.js" />
       </list>
     </option>
   </component>
@@ -394,7 +390,7 @@
       <workItem from="1563095860332" duration="4423000" />
       <workItem from="1563104616185" duration="6709000" />
       <workItem from="1563284155425" duration="707000" />
-      <workItem from="1563451844550" duration="3999000" />
+      <workItem from="1563451844550" duration="4966000" />
     </task>
     <task id="LOCAL-00001" summary="Start Page Structure Complete. Started Front page layout">
       <created>1562176289654</created>
@@ -445,23 +441,30 @@
       <option name="project" value="LOCAL" />
       <updated>1563104958690</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="completed friends page">
+      <created>1563456054599</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1563456054599</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90199000" />
+    <option name="totallyTimeSpent" value="91166000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4978166" visible="true" weight="0.24851191" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4978166" visible="true" weight="0.24851191" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" sideWeight="0.5021834" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49925596" visible="true" weight="0.30974844" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49925596" visible="true" weight="0.30974844" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39937106" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -487,7 +490,8 @@
     <MESSAGE value="auto deployment testing" />
     <MESSAGE value="chat updated" />
     <MESSAGE value="dropdowns updated" />
-    <option name="LAST_COMMIT_MESSAGE" value="dropdowns updated" />
+    <MESSAGE value="completed friends page" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed friends page" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/App.test.js" />
@@ -619,13 +623,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/FrontLayout.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Assets/css/FrontLayout.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
@@ -635,15 +632,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/Friends.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-662">
-          <caret line="21" column="70" selection-start-line="21" selection-start-column="70" selection-end-line="21" selection-end-column="70" />
+        <state relative-caret-position="327">
+          <caret line="128" column="30" selection-start-line="128" selection-start-column="30" selection-end-line="128" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Assets/css/friends.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="19" column="52" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+        <state relative-caret-position="299">
+          <caret line="93" column="52" selection-start-line="93" selection-start-column="52" selection-end-line="93" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/FrontLayout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

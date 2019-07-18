@@ -1,4 +1,6 @@
 import React from 'react'
+import {BrowserRouter as Router, Route, Link} from "react-router-dom";
+
 import DropMenu from '../Components/DropMenu';
 import Chat from '../Components/Chat';
 import Profile from '../Components/Profile'
@@ -28,7 +30,11 @@ class FrontLayout extends React.Component {
                     {/*<i className="fas fa-angle-up"> </i>*/}
                 </div>
                 <div className={this.state.show ? "display" : "display max"}>
-                    <Friends />
+                    <Router>
+                        <Route exact path="/friends/" component={Friends}/>
+                        <Route path="/profile/" component={Profile}/>
+                        <Route path="/chat/" component={Chat}/>
+                    </Router>
                 </div>
                 <div className={this.state.show ? "nav-bar" : "nav-bar hide"}>
                     <div className="center-panel centered">
